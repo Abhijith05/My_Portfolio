@@ -164,6 +164,12 @@ img {
 .nav__logo {
   color: var(--second-color);
 }
+.header img {
+  float: left;
+  width: 35px;
+  height: 35px;
+  background: #555;
+}
 
 .nav__toggle {
   color: var(--second-color);
@@ -188,6 +194,7 @@ img {
 }
 
 /*===== HOME =====*/
+
 .home {
   position: relative;
   row-gap: 5rem;
@@ -214,8 +221,8 @@ img {
 
 .home__social-icon {
   width: max-content;
-  margin-bottom: var(--mb-2);
-  font-size: 1.5rem;
+  margin-bottom: var(--mb-3);
+  font-size: 2rem;
   color: var(--second-color);
 }
 
@@ -339,7 +346,6 @@ img {
 .skills__img {
   border-radius: .5rem;
 }
-
 /* ===== WORK =====*/
 .work__container {
   row-gap: 2rem;
